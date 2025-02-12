@@ -5,29 +5,6 @@
         <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Spacer div to push content below navbar -->
-    <div style="height: 80px;"></div> <!-- Adjust the height to match your navbar height -->
-
-    <!-- Welcome Message and Greeting Section -->
-    <div class="greeting" style="text-align: center; padding: 20px;">
-        <h2>Welcome to the Flower Shop!!!!</h2>
-        <?php
-            // Set the timezone
-            date_default_timezone_set("Asia/Colombo"); // Change to your timezone if needed
-            
-            // Get the current hour
-            $hour = date("H");
-
-            // Display greeting based on the current time
-            if ($hour < 12) {
-                echo "<h3>Good Morning! 🌞</h3>";
-            } elseif ($hour < 18) {
-                echo "<h3>Good Afternoon! 🌤️</h3>";
-            } else {
-                echo "<h3>Good Evening! 🌙</h3>";
-            }
-        ?>
-    </div>
 
 <img src="bg.jpg" class="bg" alt="Background Image">
     <!-- Navigation Section Start -->
