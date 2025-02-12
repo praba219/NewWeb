@@ -1,9 +1,4 @@
 /* CSS Style For All */
-.greeting {
-    text-align: center;
-    padding: 20px;
-    margin-top: 80px; /* Adjust this value if needed */
-}
 
 .navbar {
     position: fixed;
